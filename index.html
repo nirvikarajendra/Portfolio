@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.lineicons.com/5.0/lineicons.css" rel="stylesheet" />
+    <script src="script.js" defer></script>
+    <title>Nirvika's Portfolio</title>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                Nirvika <span>Rajendra</span>
+            </div>
+            <div class="links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#experience">Experience</a>
+                <a href="#education">Education</a>
+                <a href="#projects">Projects</a>
+                <a href="#certifications">Certifications</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+    </nav>
+
+    <!-- Dropdown Menu -->
+    <div class="dropdown">
+        <div class="links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#certifications">Certifications</a>
+            <a href="#contact">Contact</a>
+            <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+        </div>
+    </div>
+
+
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="main-container">
+            <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+                <img src="images/IMG_8447.jpg" alt="Your Profile">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hey, I'm Nirvika</h1>
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700"><span>I'm a Data Analyst</span></h1>
+
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100">
+                    Transforming Complex Data into Actionable Insights to Drive Strategic Decisions and Business Impact.
+                </p>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/nirvika-rajendra-70555b2b2/" target="_blank">
+                        <img src="logo/linkedin.svg" alt="LinkedIn" class="social-logo">
+                    </a>
+                    <a href="mailto:nirvikarajendra16@gmail.com" target="_blank">
+                        <img src="logo/gmail.svg" alt="Gmail" class="social-logo">
+                    </a>
+                    <a href="https://github.com/Nirvika12" target="_blank">
+                        <img src="logo/github.svg" alt="GitHub" class="social-logo">
+                    </a>               
+                </div>
+                <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+                    <a href="Nirvika Rajendra.pdf" target="_blank">
+                        <button>Download Resume</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+            <p style="color:#d3e0ea">I'm a data analyst who loves solving analytical problems using SQL, Python, visualization tools, and statistical logic. I specialize in building dashboards, crafting data pipelines, and uncovering patterns in financial, operational, and research datasets.</p>
+            <p style="color:#d3e0ea">I enjoy taking raw, messy data and transforming it into something beautiful — dashboards, insights, stories, and strategies that help organizations make informed decisions. I’ve worked across education, finance, and enterprise engineering environments.</p>
+            <p style="color:#d3e0ea">My mission is simple: <strong>make data understandable, actionable, and impactful</strong>.</p>
+
+    </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2><i class="fa-solid fa-chart-line"></i> Skills & Abilities</h2>
+
+            <!-- Programming Languages -->
+            <div class="skill-category">
+                <h3><i class="fa-solid fa-code"></i> Programming Languages</h3>
+                <div class="skills-container two-cols">
+                    <div class="skill"><i class="fa-brands fa-python"></i> Python</div>
+                    <div class="skill"><i class="fa-solid fa-code"></i> C#</div>
+                </div>
+            </div>
+
+            <!-- Data Analysis & Visualization -->
+            <div class="skill-category">
+                <h3><i class="fa-solid fa-chart-bar"></i> Data Analysis & Visualization</h3>
+                <div class="skills-container three-cols">
+                    <div class="skill"><i class="fa-solid fa-table"></i> Pandas</div>
+                    <div class="skill"><i class="fa-solid fa-chart-pie"></i> NumPy</div>
+                    <div class="skill"><i class="fa-solid fa-chart-line"></i> Matplotlib</div>
+                    <div class="skill"><i class="fa-brands fa-python"></i> Seaborn</div>
+                    <div class="skill"><i class="fa-solid fa-chart-pie"></i> Tableau</div>
+                    <div class="skill"><i class="fa-solid fa-chart-line"></i> Power BI</div>
+                    <div class="skill"><i class="fa-solid fa-table"></i> Excel</div>
+                </div>
+            </div>
+
+            <!-- Statistical & Machine Learning -->
+            <div class="skill-category">
+                <h3><i class="fa-solid fa-brain"></i> Statistics & Machine Learning</h3>
+                <div class="skills-container three-cols">
+                    <div class="skill"><i class="fa-solid fa-calculator"></i> Hypothesis Testing</div>
+                    <div class="skill"><i class="fa-solid fa-chart-simple"></i> Regression Analysis</div>
+                    <div class="skill"><i class="fa-solid fa-project-diagram"></i> Classification</div>
+                    <div class="skill"><i class="fa-solid fa-network-wired"></i> Clustering</div>
+                    <div class="skill"><i class="fa-solid fa-robot"></i> Scikit-learn</div>
+                    <div class="skill"><i class="fa-solid fa-robot"></i> Statsmodels</div>
+                </div>
+            </div>
+
+            <!-- Databases -->
+            <div class="skill-category">
+                <h3><i class="fa-solid fa-database"></i> Databases</h3>
+                <div class="skills-container three-cols">
+                    <div class="skill"><i class="lni lni-postgresql"></i> PostgreSQL</div>
+                    <div class="skill"><i class="lni lni-mysql"></i> MySQL</div>
+                    <div class="skill"><i class="fa-solid fa-database"></i> SQLite</div>
+                </div>
+            </div>
+
+            <!-- Data Cleaning & ETL -->
+            <div class="skill-category">
+                <h3><i class="fa-solid fa-broom"></i> Data Cleaning & ETL</h3>
+                <div class="skills-container three-cols">
+                    <div class="skill"><i class="fa-solid fa-file-csv"></i> Pandas Data Cleaning</div>
+                    <div class="skill"><i class="fa-solid fa-table"></i> Data Transformation</div>
+                    <div class="skill"><i class="fa-solid fa-exchange-alt"></i> ETL Pipelines</div>
+                    <div class="skill"><i class="fa-solid fa-upload"></i> Rest APIs & FastAPI</div>
+                </div>
+            </div>
+
+            <!-- Cloud & Tools -->
+            <div class="skill-category">
+                <h3><i class="fa-solid fa-cloud"></i> Cloud & Tools</h3>
+                <div class="skills-container three-cols">
+                    <div class="skill"><i class="fa-brands fa-aws"></i> AWS</div>
+                    <div class="skill"><i class="fa-brands fa-microsoft"></i> Azure</div>
+                    <div class="skill"><i class="fa-brands fa-github"></i> Git & GitHub</div>
+                    <div class="skill"><i class="fa-solid fa-cogs"></i> Docker</div>
+                </div>
+            </div>
+
+            <!-- Soft Skills -->
+            <div class="skill-category">
+                <h3><i class="fa-solid fa-lightbulb"></i> Soft Skills</h3>
+                <div class="skills-container three-cols">
+                    <div class="skill"><i class="fa-solid fa-users"></i> Team Collaboration</div>
+                    <div class="skill"><i class="fa-solid fa-comments"></i> Communication</div>
+                    <div class="skill"><i class="fa-solid fa-project-diagram"></i> Problem Solving</div>
+                    <div class="skill"><i class="fa-solid fa-clock"></i> Time Management</div>
+                </div>
+            </div>
+        </section>
+
+
+
+    <!-- Work Experience Section -->
+    <section id="experience">
+        <h2><i class="fa-solid fa-briefcase"></i> Experience</h2>
+        <div class="timeline">
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <img src="logo/umbc.png" alt="UMBC Logo" class="company-logo-box">
+                    <div class="job-details">
+                        <h3>Data Analyst (Digital Library Repository)</h3>
+                        <p><i class="fa-solid fa-building"></i> UMBC Albin O. Kuhn Library & Gallery – Baltimore, MD</p>
+                        <p><i class="fa-solid fa-calendar"></i> June 2024 – Dec 2025</p>
+                        <ul>
+                            <li>
+                                Managed and refined <strong>10K+ scholarly records</strong> in the MD-SOAR repository, ensuring data integrity and compliance with metadata standards.
+                            </li>
+                            <li>
+                                Implemented <strong>Python scripts</strong> and Excel workflows to automate metadata conversion, validation, and cleaning, reducing manual effort by 70% and improving data accuracy.
+                            </li>
+                            <li>
+                                Standardized <strong>Dublin Core metadata</strong> in collaboration with librarians, enhancing research discoverability and reporting efficiency.
+                            </li>
+                            <li>
+                                Performed <strong>data audits and validation</strong> to identify inconsistencies, strengthen data governance, and ensure high-quality metadata.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-content">
+                    <img src="logo/ltimindtree_logo.png" alt="LTIMindtree Logo" class="company-logo-box">
+                    <div class="job-details">
+                        <h3>Software Developer</h3>
+                        <p><i class="fa-solid fa-building"></i> LTIMindtree (Client: Credit Corp Group, Australia) – Bengaluru, India</p>
+                        <p><i class="fa-solid fa-calendar"></i> August 2021 – November 2023</p>
+                        <ul>
+                            <li>
+                                Developed high-performance <strong>RESTful APIs</strong> using <strong>ASP.NET Core Web API</strong>, validated with Postman, improving API response times and execution efficiency by <strong>45%</strong>.
+                            </li>
+                            <li>
+                                Designed and implemented <strong>secure microservices architectures</strong> with <strong>JWT authentication</strong>, reducing security vulnerabilities by <strong>70%</strong> and ensuring fault-tolerant backend services.
+                            </li>
+                            <li>
+                                Optimized <strong>MSSQL databases</strong> using indexing, stored procedures, triggers, and complex <strong>LINQ</strong> and <strong>Entity Framework Core</strong> queries, improving query performance and data access speed by <strong>30%</strong>.
+                            </li>
+                            <li>
+                                Built <strong>synchronous and asynchronous REST APIs</strong> to handle high-volume concurrent transactions, enhancing system scalability, responsiveness, and reliability.
+                            </li>
+                            <li>
+                                Designed and deployed <strong>CI/CD pipelines</strong> using <strong>Octopus Deploy</strong>, <strong>Git</strong>, and <strong>Azure DevOps</strong>, enabling <strong>zero-downtime biweekly releases</strong> and reducing deployment time by <strong>40%</strong>.
+                            </li>
+                            <li>
+                                Executed <strong>unit and integration testing</strong> with <strong>NUnit</strong>, along with API validation and regression testing using <strong>Postman</strong>, increasing test coverage and code reliability by <strong>40%</strong>.
+                            </li>
+                            <li>
+                                Implemented <strong>monitoring and logging pipelines</strong> and provided production support by debugging backend services, resolving critical issues, optimizing performance, and accelerating incident resolution.
+                            </li>
+                            <li>
+                                Collaborated in <strong>Agile/Scrum teams</strong> using <strong>Jira</strong> and <strong>TFS</strong> for sprint planning, work item tracking, and code reviews, consistently achieving <strong>100% on-time sprint delivery</strong>.
+                            </li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div>
+            
+
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+    <h2><i class="fa-solid fa-graduation-cap"></i> Education</h2>
+    <div class="timeline">
+
+        <div class="timeline-item">
+        <div class="timeline-content">
+            <img src="logo/umbc.png" alt="UMBC Logo" class="company-logo-box" />
+            <div class="job-details">
+            <h3>Masters of Professional Studies in Data Science(M.P.S)</h3>
+            <p><i class="fa-solid fa-building-columns"></i> University of Maryland, Baltimore County</p>
+            <p><i class="fa-solid fa-calendar"></i> Jan 2024 – Dec 2025</p>
+            <p><i class="fa-solid fa-graduation-cap"></i> CGPA: <strong>3.89 / 4.0</strong></p>
+            
+            <ul>
+                <li>Focused on <strong>data analysis, predictive modeling</strong>, and <strong>end-to-end data science workflows</strong> with an emphasis on actionable insights and scalable solutions.</li>
+                <li>Completed advanced coursework in <strong>Data Management, Big Data & Platforms, Machine Learning, Financial Data Science</strong>, and <strong>Project Management</strong>.</li>
+                <li>Led a capstone project analyzing <strong>student start-up success metrics</strong> and predicting outcomes using <strong>Python, Pandas, Scikit-learn</strong>, and <strong>Streamlit</strong> for interactive dashboards.</li>
+                <li>Developed data-driven solutions including <strong>ETL pipelines, predictive models, and interactive dashboards</strong> to support decision-making.</li>
+                <li>Strengthened core skills in <strong>statistical analysis, feature engineering, model evaluation, and data visualization</strong> using <strong>Python, Power BI, Tableau, and SQL</strong>.</li>
+            </ul>
+
+            </div>
+        </div>
+        </div>
+
+        <div class="timeline-item">
+        <div class="timeline-content">
+            <img src="logo/dsatm_logo.png" alt="DSATM Logo" class="company-logo-box" />
+            <div class="job-details">
+                <h3>Bachelor of Engineering in Computer Science(B.E)</h3>
+                <p><i class="fa-solid fa-building-columns"></i> Dayananda Sagar Academy of Technology and Management</p>
+                <p><i class="fa-solid fa-calendar"></i> August 2017 – July 2021</p>
+                <p><i class="fa-solid fa-graduation-cap"></i> CGPA: <strong>8.72 / 10.0</strong></p>
+
+                <ul>
+                    <li>Built strong foundations in <strong>Data Structures & Algorithms (DSA), Object-Oriented Programming (OOP), Software Engineering, Cloud Computing, Advanced Python Programming</strong>, and <strong>Database Management Systems (DBMS)</strong>.</li>
+                    <li>Created a <strong>Computer Vision Based Mouse Control Using Object Detection</strong> project for Human-Computer Interaction using Python, OpenCV, and PyAutoGUI. 
+                        <a href="https://www.ijrpr.com/uploads/V2ISSUE6/IJRPR517.pdf" target="_blank">View Publication</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+
+    </div>
+    </section>
+
+
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+
+            <!-- Project 1: Student Start-up Success Analysis -->
+            <div class="project">
+                <img src="images/student_startup.png" alt="Startup Success Predictor" class="project-img">
+                <h3>Student Start-up Success Analysis</h3>
+                <p>Analyzed 2,100 student-led start-up projects across 40 institutions using Python and Pandas. Conducted EDA, feature engineering, and correlation studies to identify key success drivers. Built an interactive Streamlit dashboard to visualize trends and support decision-making for mentorship, incubation, and funding.</p>
+                <div class="project-links">
+                    <a href="https://umbc-data606-capstone-nirvika-rajendra-student-startup-succcess.streamlit.app/" target="_blank">Live Demo</a>
+                    <a href="https://github.com/Nirvika12/UMBC-DATA606-Capstone" target="_blank">View on GitHub</a>
+                    <a href="https://www.youtube.com/watch?v=q3P-4F45NCo" target="_blank">View on Youtube</a>
+                </div>
+            </div>
+
+            <!-- Project 2: LinkedIn Job Market Analysis -->
+            <div class="project">
+                <img src="images/linkedin_job_market.png" alt="LinkedIn Job Market Analysis" class="project-img">
+                <h3>LinkedIn Job Market Analysis</h3>
+                <p>Processed 1.3M+ job listings using Apache Spark and Hive to extract labor market trends, including top skills, roles, and geographic demand. Created interactive Power BI dashboards to guide 100+ HR managers in hiring and workforce planning.</p>
+                <a href="https://github.com/Nirvika12/LinkedIn-Job-Market-Analysis" target="_blank">View on GitHub</a>
+            </div>
+
+           <!-- Project 3: EDA – Estimation of Obesity Levels -->
+           <div class="project">
+                <img src="images/obesity_eda.png" alt="EDA Obesity Levels" class="project-img">
+                <h3>EDA – Estimation of Obesity Levels</h3>
+                <p>Conducted exploratory data analysis on health datasets to identify factors influencing obesity prevalence. Visualized correlations and trends using Python (Pandas, Matplotlib, Seaborn), providing actionable insights for public health recommendations.</p>
+                <a href="https://github.com/Nirvika12/EDA---Estimation-of-Obesity-Levels" target="_blank">View on GitHub</a>
+                <a href="https://public.tableau.com/views/EstimationofObesityLevels/Dashboard1" target="_blank">View on Tableau</a>
+            </div>
+
+            <!-- Project 4: Portfolio & Volatility Modelling -->
+            <div class="project">
+                <img src="images/portfolio_volatility.png" alt="Portfolio and Volatility Modelling" class="project-img">
+                <h3>Portfolio & Volatility Modelling</h3>
+                <p>Analyzed financial data to model risks and returns. Engineered key features, conducted statistical analysis, and built interactive dashboards with Gradio to help clients evaluate portfolio performance and market risk.</p>
+                <a href="https://github.com/Nirvika12/Portfolio-Analysis-and-Volatility-Prediction" target="_blank">View on GitHub</a>
+            </div>
+
+             <!-- Project 5: Credit Card Fraud Detection (EDA-focused) -->
+            <div class="project">
+                <img src="images/credit_card_fraud.png" alt="Credit Card Fraud Detection" class="project-img">
+                <h3>Credit Card Fraud Detection (EDA)</h3>
+                <p>Performed exploratory data analysis on 284K credit card transactions to identify patterns of fraudulent activity. Handled class imbalance using SMOTE and visualized key trends to inform fraud detection strategies.</p>
+                <a href="https://github.com/Nirvika12/Credit-Card-Fraud-Detection" target="_blank">View on GitHub</a>
+            </div>
+
+             <!-- Project 6: Airbnb Price Prediction (EDA & Insights) -->
+            <div class="project">
+                <img src="images/airbnb_price_prediction.png" alt="Airbnb Price Prediction" class="project-img">
+                <h3>Airbnb Rental Price Analysis & Prediction</h3>
+                <p>Analyzed NYC Airbnb listings to identify factors influencing rental prices, including location, property type, host attributes, and reviews. Performed EDA to uncover trends and correlations, and developed interpretable predictive models to provide actionable pricing insights for hosts and guests.</p>
+                <a href="https://github.com/Nirvika12/AIRBNB-S-PRICE-PREDICTION" target="_blank">View on GitHub</a>
+                <a href="https://github.com/nirvikarajendra/Case-Study-Optimising-Host-Pricing-at-Airbnb/" target="_blank">View Case Study</a>
+            </div>
+
+            <!-- Case Study 1: Optimizing Netflix Content Recommendation -->
+            <div class="project">
+                <img src="images/netflix_recommendation.png" alt="Netflix Content Recommendation Case Study" class="project-img">
+                <h3>Case Study : Optimizing Netflix Content Recommendations</h3>
+                <p>Analyzed Netflix’s recommendation system to enhance personalization and user engagement. Focused on <strong>data quality assurance</strong>—validation, cleaning, enrichment, and monitoring—while addressing missing or biased data. Proposed a hybrid Waterfall-Agile approach for iterative improvements, delivering actionable insights to improve recommendation accuracy and user retention.</p>
+                <a href="https://github.com/nirvikarajendra/Optimising-Content-Recommendation-at-Netflix---A-Case-Study" target="_blank">View Case Study</a>
+            </div>
+
+            <!-- Research Paper: Big Data for Remote Patient Care -->
+            <div class="project">
+                <img src="images/remote_patient_care.png" alt="Big Data Remote Patient Care" class="project-img">
+                <h3>Technical Paper : From Bytes to Better Health - Leveraging Big Data for Enhanced Remote Patient Care</h3>
+                <p>
+                    Examined how <strong>big data, IoMT, and machine learning</strong> enable continuous remote patient monitoring and predictive healthcare analytics. Analyzed large-scale data
+                    processing with <strong>Hadoop and Apache Spark</strong>, evaluated <strong>predictive models</strong> for health risk assessment, and reviewed <strong>privacy-preserving techniques</strong> such as
+                    federated learning and blockchain to support secure, data-driven clinical decisions.
+                </p>
+                <a href="https://github.com/nirvikarajendra/Big-Data-in-Healthcare---Technical-Paper/" target="_blank">View Research Paper</a>
+            </div>
+            
+        </div>
+    </section>
+
+    
+
+
+    <!-- Certifications Section -->
+    <section id="certifications">
+        <h2><i class="fa-solid fa-award"></i> Certifications</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>Google Advanced Data Analytics</h3>
+                <p><i class="fa-solid fa-building"></i> Coursera</p>
+                <p><i class="fa-solid fa-calendar"></i> Dec 2025</p>
+                <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/ASVZ6GMQ45W9" target="_blank">View Certificate</a>
+            </div>
+            <!-- <div class="timeline-item">
+                <h3>Tableau Certificate</h3>
+                <p><i class="fa-solid fa-building"></i> Coursera</p>
+                <p><i class="fa-solid fa-calendar"></i>  </p>
+                <a href="" target="_blank">View Certificate</a> 
+            </div> -->
+            <div class="timeline-item">
+                <h3>AZ-900: Microsoft Azure</h3>
+                <p><i class="fa-solid fa-building"></i> Udemy </p>
+                <p><i class="fa-solid fa-calendar"></i> Oct 2025 </p>
+                <a href=" https://www.udemy.com/certificate/UC-193fd455-b1f4-4124-add8-f750ede69d8c/" target="_blank">View Certificate</a>
+            </div>
+             <div class="timeline-item">
+                <h3>SQL for Data Science</h3>
+                <p><i class="fa-solid fa-building"></i> Coursera </p>
+                <p><i class="fa-solid fa-calendar"></i> 2023 </p>
+                <a href="https://www.coursera.org/account/accomplishments/verify/GHB97M46E3YV" target="_blank">View Certificate</a>
+            </div>
+             
+        </div>
+    </section>
+
+
+        <!-- Contact Section -->
+    <section id="contact">
+        <p>Get in Touch</p>
+        <h2>Contact Me</h2>
+        <div class="contact-box">
+            <a href="mailto:nirvikarajendra16@gmail.com" class="contact-item">
+                <img src="logo\gmail.svg" alt="Gmail" class="contact-icon">
+                nirvikarajendra16@gmail.com
+            </a>
+            <a href="https://www.linkedin.com/in/nirvika-rajendra-70555b2b2/" target="_blank" class="contact-item">
+                <img src="logo\linkedin.svg" alt="LinkedIn" class="contact-icon">
+                LinkedIn
+            </a>
+
+            <a href="tel:+16674190681" class="contact-item">
+                <img src="logo\phone.svg" alt="Phone" class="contact-icon">
+                +1 (667) 4190681
+            </a>
+        </div>
+    </section>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:0});
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
